@@ -43,3 +43,4 @@ When merging upstream changes, make sure to keep these GTAPE-specific modificati
 4. **Access macro**: DOI output section should be removed (no `<else-if match="any" variable="DOI">` block)
 5. **Citation element** (~line 322): Keep `collapse="citation-number"` attribute
 6. **Article-journal bibliography**: Use period (not comma) before access macro
+7. **Remove Access macro entirely**
