@@ -281,6 +281,12 @@
   </citation>
   <!-- Bibliography -->
   <bibliography entry-spacing="0" second-field-align="flush">
+     <sort>
+      <!-- Primary sort: by issued date (ascending = oldest first) -->
+      <key variable="issued" sort="ascending"/>
+      <!-- Tie-breaker: existing citation-number order -->
+      <key variable="citation-number" sort="ascending"/>
+    </sort>
     <layout>
       <!-- Citation Number -->
       <text variable="citation-number" prefix="[" suffix="]"/>
